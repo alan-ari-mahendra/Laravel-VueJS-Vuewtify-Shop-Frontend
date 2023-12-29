@@ -2,7 +2,7 @@
   <div>
     <v-container class="ma-0 pa-0" grid-list-sm>
       <v-subheader>
-        All Books 
+        All Books
       </v-subheader>
       <v-layout wrap>
         <v-flex v-for="(book) in books" :key="`book-`+book.id" xs6>
